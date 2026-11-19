@@ -1,18 +1,21 @@
 {
-  "name": "SHERIKO",
-  "short_name": "SHERIKO",
-  "description": "SHERIKO - Media & Entertainment",
-  "start_url": "/sheriko-media/",
-  "scope": "/sheriko-media/",
+  "name": "Sheriko Media",
+  "short_name": "Sheriko",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
+  "description": "Sheriko Media - Isiolo's Best Entertainment",
   "icons": [
     {
-      "src": "https://briangitonga920-star.github.io/sheriko-media/logo.png",
+      "src": "https://cdn-icons-png.flaticon.com/512/727/727245.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/727/727245.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     }
   ]
 }
