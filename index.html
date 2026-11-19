@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sheriko Media Services - Professional MC & Media</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#f7f8fc;color:#222;line-height:1.6}
+header{background:#0A2A5E;color:white;text-align:center;padding:30px 15px}
+header h1{font-size:34px;letter-spacing:2px}
+header p{color:#F59E0B;font-weight:bold;margin-top:5px}
+nav{background:#071E45;text-align:center;padding:13px;position:sticky;top:0;z-index:10}
+nav a{color:white;text-decoration:none;margin:0 12px;font-weight:bold}
+.hero{text-align:center;padding:25px 15px;max-width:800px;margin:auto}
+.hero h2{color:#0A2A5E;font-size:28px;margin-bottom:8px}
+.hero p{font-size:17px}
+.btn{display:inline-block;background:#25D366;color:white;padding:14px 26px;border-radius:30px;text-decoration:none;font-weight:bold;margin:10px 5px}
+.btn2{background:#F59E0B}
+section{padding:20px 15px;max-width:850px;margin:auto}
+h2{color:#0A2A5E;text-align:center;margin-bottom:15px;font-size:25px}
+.box{background:white;padding:20px;border-radius:14px;margin:12px 0;box-shadow:0 2px 10px rgba(0,0,0,0.08)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:white;padding:18px;border-radius:14px;box-shadow:0 2px 10px rgba(0,0,0,0.08);text-align:center}
+.card h3{color:#0A2A5E;margin-bottom:5px}
+.card span{font-size:32px}
+.why li{margin-bottom:12px}
+input,select,textarea{width:100%;padding:13px;margin:8px 0;border:1px solid #ddd;border-radius:10px;font-size:16px}
+footer{background:#071E45;color:white;text-align:center;padding:25px 15px;line-height:1.7}
+footer a{color:#F59E0B;text-decoration:none;font-weight:bold}
+@media(max-width:600px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header><h1>SHERIKO</h1><p>MEDIA SERVICES</p><p style="color:white;font-weight:normal;margin-top:10px">Professional Emcee • Events • Media Production</p></header>
+<nav><a href="#home">Home</a><a href="#services">Services</a><a href="#why">Why Us</a><a href="#book">Book Us</a><a href="#contact">Contact</a></nav>
+
+<div class="hero" id="home">
+<h2>Your Event, Hosted To Perfection.</h2>
+<p>From high-stakes corporate galas to weddings, sports and fundraisers - Sheriko Media Services brings energy, timing and class to every stage.</p>
+<a class="btn" href="https://wa.me/254725949716?text=Hello%20Sheriko,%20I%20want%20to%20book%20you%20for%20my%20event">Book On WhatsApp</a>
+<a class="btn btn2" href="#services">View Our Services</a>
+</div>
+
+<section id="services">
+<h2>🎤 OUR SERVICES</h2>
+<div class="grid">
+<div class="card"><span>🎙️</span><h3>Corporate Emcee</h3><p>High-stakes Awards & Galas</p></div>
+<div class="card"><span>👔</span><h3>Conference Hosts</h3><p>Expert Facilitation, Summits</p></div>
+<div class="card"><span>💍</span><h3>Social Events Host</h3><p>Weddings, Milestones</p></div>
+<div class="card"><span>⚽</span><h3>Sports Commentary</h3><p>High-energy, Play-by-play</p></div>
+<div class="card"><span>❤️</span><h3>Fundraiser Hosting</h3><p>Charity Drives, Auctions</p></div>
+<div class="card"><span>🎓</span><h3>Ceremony Emcee</h3><p>Commencement & Formal Events</p></div>
+<div class="card"><span>🎖️</span><h3>Parade Commentary</h3><p>Precise & Commanding</p></div>
+<div class="card"><span>🎧</span><h3>Voice-Over Artist</h3><p>Commercial & Narrative</p></div>
+<div class="card"><span>🏪</span><h3>Exhibition Hosting</h3><p>Product Launches & Demos</p></div>
+<div class="card"><span>🎬</span><h3>Media Production</h3><p>Full Content Production</p></div>
+</div>
+</section>
+
+<section id="why">
+<h2>⭐ WHY CHOOSE SHERIKO?</h2>
+<div class="box"><ul class="why">
+<li><b>Dynamic Versatility:</b> Flawless handling of events, from corporate to sports.</li>
+<li><b>Impeccable Timing:</b> Critical management of program flow and moments.</li>
+<li><b>Crisis Management:</b> Calming, commanding presence during unexpected changes.</li>
+<li><b>State-of-the-Art Production:</b> High-fidelity delivery for all media formats.</li>
+</ul></div>
+</section>
+
+<section id="book">
+<h2>📅 BOOK SHERIKO FOR YOUR EVENT</h2>
+<div class="box">
+<form onsubmit="bookNow(event)">
+<input id="name" placeholder="Your Name" required>
+<input id="phone" placeholder="Your Phone / WhatsApp" required>
+<select id="service" required>
+<option value="">Select Service...</option>
+<option>Corporate Emcee</option><option>Conference Host</option><option>Wedding / Social Event</option><option>Sports Commentary</option><option>Fundraiser</option><option>Ceremony Emcee</option><option>Parade Commentary</option><option>Voice-Over</option><option>Exhibition Hosting</option><option>Media Production</option>
+</select>
+<input id="date" type="date" required>
+<textarea id="details" placeholder="Tell us about your event - venue, number of guests..."></textarea>
+<button class="btn" style="border:none;width:100%;cursor:pointer" type="submit">Send Booking On WhatsApp</button>
+</form>
+</div>
+</section>
+
+<section id="contact">
+<h2>📞 GET IN TOUCH</h2>
+<div class="box" style="text-align:center">
+<p><b>Email:</b> mcerico254@gmail.com</p>
+<p><b>Phone / WhatsApp:</b> +254 725 949 716</p>
+<p><b>Website:</b> www.sheriko.com</p>
+<p><b>Social:</b> @SherikoMediaServices</p><br>
+<a class="btn" href="https://wa.me/254725949716">Chat on WhatsApp</a>
+<a class="btn btn2" href="tel:+254725949716">Call Now</a>
+</div>
+</section>
+
+<footer><p><b>SHERIKO MEDIA SERVICES</b></p><p>Professional Emcee • Events • Media</p><p>📞 <a href="tel:+254725949716">+254 725 949 716</a> | 📧 mcerico254@gmail.com</p><p>@SherikoMediaServices</p></footer>
+
+<script>
+function bookNow(e){
+e.preventDefault();
+let msg = "Hello Sheriko!%0A%0AName: "+document.getElementById('name').value+"%0APhone: "+document.getElementById('phone').value+"%0AService: "+document.getElementById('service').value+"%0ADate: "+document.getElementById('date').value+"%0ADetails: "+document.getElementById('details').value;
+window.open("https://wa.me/254725949716?text="+msg, "_blank");
+}
+</script>
+</body>
+</html>
