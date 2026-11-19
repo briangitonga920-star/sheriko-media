@@ -1,21 +1,21 @@
 {
-  "name": "Sheriko Media",
+  "name": "Sheriko Media Services",
   "short_name": "Sheriko",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
-  "description": "Sheriko Media - Isiolo's Best Entertainment",
+  "background_color": "#ffffff",
+  "theme_color": "#0a3d62",
   "icons": [
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/727/727245.png",
+      "src": "IMG-20261106-WA0018.jpg",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/jpeg"
     },
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/727/727245.png",
+      "src": "IMG-20261106-WA0018.jpg",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/jpeg",
+      "purpose": "any maskable"
     }
   ]
 }
