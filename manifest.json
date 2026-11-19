@@ -1,0 +1,18 @@
+{
+  "name": "SHERIKO",
+  "short_name": "SHERIKO",
+  "description": "SHERIKO - Media & Entertainment",
+  "start_url": "/sheriko-media/",
+  "scope": "/sheriko-media/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "https://briangitonga920-star.github.io/sheriko-media/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
